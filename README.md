@@ -6,5 +6,5 @@
 Then click the link peovided on the terminal
 
 # To visit the hosted website
-https://movie-store-apcj.onrender.com/
+https://smooze-movie.netlify.app/
 

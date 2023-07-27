@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/NavBar-Logo-0b4277ff.svg";
+import logo from "../../assets/light.jpeg";
 
 const Header = () => {
     const [show, setShow] = useState("top");
@@ -75,6 +75,7 @@ const Header = () => {
             <ContentWrapper>
                 <div className="logo" onClick={() => navigate("/")}>
                     <img src={logo} alt="" />
+
                 </div>
                 <ul className="menuItems">
                     <li
